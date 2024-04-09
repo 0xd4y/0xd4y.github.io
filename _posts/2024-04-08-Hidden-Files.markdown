@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  PwnedLabs (GCP): Hidden Files
+title:  PwnedLabs (GCP) - Hidden Files
 description: The first video in the GCP series features a scenario where participants are provided with a URL leading to a misconfigured storage bucket serving image files, prompting them to fuzz potential files, discover a backup zip file due to the entity being set to "Public" with "allUsers" granted Reader access, and completing the challenge by decrypting the zip file.
-date:   2024-04-07
-category: Videos
+date:   2024-04-08
 image: '/images/hidden_files_web.png'
+category: Videos
 tags:   [GCP, Storage Bucket, Videos]
 ---
 
