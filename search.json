@@ -1,5 +1,14 @@
 [
     {
+      "title"    : "PwnedLabs (GCP) - SSRF with Gopher",
+      "category" : "Videos",
+      "tags"     : "Videos, GCP, SSRF, Storage Bucket",
+      "url"      : "/videos/2024/04/25/Gopher-with-SSRF",
+      "date"     : "Apr 25, 2024",
+      "content"  : "This is the second video in the GCP series which showcases the Gopher SSRF scenario at https://pwnedlabs.io/labs/exploit-ssrf-with-gopher-for-gcp-initial-access. This scenario involves the exploitation of a web application using an SSRF vulnerability to obtain the GCP credentials from the web server's metadata. After obtaining the credentials, we access a storage bucket that the application interacts with to obtain sensitive data. 00:00 - Video context 01:00 - Discovering SSRF vulnerability 06:50 - Obtaining GCP credentials 18:17 - Accessing the storage bucket 22:01 - Post-compromise analysis",
+				"image": "/images/gopher_with_ssrf_web.png"
+		},
+    {
       "title"    : "PwnedLabs (GCP) - Hidden Files",
       "category" : "Videos",
       "tags"     : "Videos, GCP, Storage Bucket",
