@@ -8,7 +8,7 @@ category: Videos
 tags:   [GCP, Storage Bucket, Videos]
 ---
 
-This is the first video in the GCP series. This video showscases the first GCP scenario at https://pwnedlabs.io/. 
+This is the first video in the GCP series which showcases the first GCP scenario at https://pwnedlabs.io/labs/breach-in-the-cloud
 
 The only information that is provided to complete this challenge is the URL of a web application which is serving image files from a misconfigured storage bucket. After fuzzing the potential files in the storage bucket, a backup zip file was discovered because the object's entity is Public with "allUsers" being given the Reader access. After decrypting the zip file the challenge is complete.
 
